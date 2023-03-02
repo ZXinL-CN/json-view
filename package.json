@@ -1,0 +1,119 @@
+{
+  "id": "jsonview@brh.numbera.com",
+  "version": "2.3.0",
+  "name": "jsonview",
+  "title": "JSONView",
+  "description": "View JSON documents in the browser.",
+  "homepage": "https://jsonview.com/",
+  "author": "Benjamin Hollis",
+  "repository": "https://github.com/bhollis/jsonview",
+  "license": "MIT",
+  "scripts": {
+    "start": "./build.sh",
+    "lint": "tslint -p tsconfig.json",
+    "watch": "npm-watch"
+  },
+  "watch": {
+    "start": {
+      "patterns": "lib/*.ts",
+      "extensions": "js,ts"
+    }
+  },
+  "contributors": [
+    "Gabriel Barros",
+    "Quoc-Viet Nguyen"
+  ],
+  "translators": [
+    "markh van BabelZilla.org (nl)",
+    "Goofy (fr)",
+    "funTomas (cs-CZ)",
+    "Fani Kozolchyk (es-ES)",
+    "urko (es-ES)",
+    "Xavi Ivars - Softcatalà (ca-AD)",
+    "drry (ja)",
+    "Marcelo Ghelman (ghelman.net) (pt-BR)",
+    "Пирятинский Виталий (ru-RU)",
+    "hoolooday (zh-CN)",
+    "Стоян Димитров (bg-BG)",
+    "Archaeopteryx, Team erweiterungen.de (de)",
+    "MIKES KASZMÁN István (hu-HU)",
+    "Ersen Yoldaç (tr)",
+    "Luana Di Muzio - BabelZilla (it)",
+    "ДакСРБИЈА (sr)",
+    "Mikael Hiort af Ornäs (sv-SE)",
+    "Zhouck (uk-UA)",
+    "Kishu Agarwal (hi-IN)",
+    "hiyaku0317 (ko)"
+  ],
+  "locales": {
+    "bg-BG": {
+      "description": "Директен преглед на JSON документи."
+    },
+    "ca-AD": {
+      "description": "Visualitza els documents JSON al navegador."
+    },
+    "cs-CZ": {
+      "description": "Dokumenty JSON přímo v prohlížeči."
+    },
+    "de": {
+      "description": "JSON-Dokumente im Browser anzeigen."
+    },
+    "en": {
+      "description": "View JSON documents in the browser."
+    },
+    "es-ES": {
+      "description": "Permite abrir documentos JSON en el navegador."
+    },
+    "fr": {
+      "description": "Afficher les documents JSON dans le navigateur."
+    },
+    "hi-IN": {
+      "description": "Json डॉक्यूमेंट को ब्राउज़र में देखे."
+    },
+    "hu-HU": {
+      "description": "JSON dokumentumok megtekintése a böngészőben."
+    },
+    "it": {
+      "description": "Permette di visualizzare i file JSON nel browser."
+    },
+    "ja": {
+      "description": "JSON ドキュメントをブラウザー内で表示します。"
+    },
+    "ko": {
+      "description": "브라우저에서 JSON 문서를 보세요."
+    },
+    "nl": {
+      "description": "Bekijk JSON-documenten in de browser."
+    },
+    "pt-BR": {
+      "description": "Veja documentos JSON no navegador."
+    },
+    "ru-RU": {
+      "description": "Просмотр документов в формате JSON прямо в браузере."
+    },
+    "sr": {
+      "description": "Приказује JSON документе у прегледачу."
+    },
+    "sv-SE": {
+      "description": "Granska JSON-dokument i din webbläsare."
+    },
+    "tr": {
+      "description": "JSON belgelerini tarayıcınızda açın."
+    },
+    "uk-UA": {
+      "description": "Перегляд JSON документів в браузер."
+    },
+    "zh-CN": {
+      "description": "在浏览器中查看JSON 文件."
+    }
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.127",
+    "npm-watch": "^0.7.0",
+    "rollup": "^2.36.0",
+    "tslint": "^6.1.3",
+    "tslint-eslint-rules": "^5.1.0",
+    "typescript": "^4.1.3",
+    "web-ext-types": "^3.2.1"
+  }
+}
